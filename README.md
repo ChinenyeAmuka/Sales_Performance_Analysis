@@ -19,29 +19,23 @@ Analysis of Sales Performance Across Customer Segments, Product Categories, Loca
 ----
 
 # Overview
-The Superstore management team is planning a business expansion but lacks visibility into which products, regions, and customer segments are driving growth and which are underperforming. Without this clarity, resource allocation and market entry decisions carry significant risk.
-
-This analysis using excel examines four years of transactional sales data (2011–2014) across 5,009 orders to identify the key drivers of revenue and profit performance. The study covers five dimensions: customer segment contribution, product category revenue, regional and state-level sales distribution, seasonal order trends, delivery and fulfilment metrics.
-
-The findings are presented through an interactive sales dashboard and this accompanying report, with the goal of equipping Superstore leadership with the data-backed insight needed to prioritise expansion markets, optimise product focus, and reduce concentration risk across their customer base.
+This report presents a structured analysis of four years of sales data (2011–2014) from a U.S.-based superstore operating across three business segments — Consumer, Corporate, and Home Office — and three product categories: Technology, Furniture, and Office Supplies. The analysis was conducted using an interactive Excel dashboard spanning three analytical pages: Executive Summary, Sales Analysis, and Operations Dashboard. The dashboard examines revenue performance, geographic distribution, product category trends, shipping behaviour, and seasonal demand patterns to surface actionable insights for business decision-making
 
 ---
 
 ## Business_Problem
 
-The management wants 
-
+Despite recording consistent sales growth over the four-year period, the business lacks clear visibility into which customer segments, product categories, and geographic markets are the true drivers of revenue. Without this insight, decisions around inventory allocation, staffing, and marketing spend remain largely reactive. This analysis was conducted to close that gap, providing data-backed direction that enables the business to prioritize resources where they deliver the highest return and build a foundation for sustainable, scalable growth.
 
 ---
 
 ## Objectives
-- To ascertain sales performance across customer segment.
-- To determine the product that drives sales growth.
-- To uncover the region with the highest sales performance across the three product segment
-- To access the effect of discount on sales performance
-- To determine the month with highest order volume.
-- To examine the delivery status with highest sales
-- To determine the monthly quantity trend
+- Examine which customer segment generates the highest profit.
+- Determine the product category and sub-categories that drive the most sales.
+- Understand the states and regions that represent the strongest and weakest markets.
+- Know how total sales and profit trended year-over-year from 2011 to 2014?
+- Find out What shipping methods do customers prefer, and how does delivery performance affect order volume?
+- Which months record peak order volumes, and what operational patterns explain seasonality
   
 ---
 ## Tools_Used
@@ -52,47 +46,81 @@ The management wants
 ## Dataset
 - Source: Online Superstore Sales data
 - Records: 9,994
-- Perios: 2011-2014
+- Periods: 2011-2014
+
+## Exploratory Data analysis
+
+
+  
 ---
-## Data_Analysis
+## Data_Cleaning
 
-- Data cleaning process: The dataset had an inconsistent date format which was cleaned using condtional statement
-                          The inconsistency in data structure was standardized as well using power query
-                          Some DAX measures where created for YoY sales and YoY profit 
+- The dataset had an inconsistent date format which was cleaned using condtional statement. The inconsistency in data structure was standardized as well using power query. Some DAX measures where created for YoY sales and YoY profit
+  
 ---
-##Key_Insights
+# Data Analysis
+---
+
+### Customer Segments
+The Consumer segment dominates profit at $134.12K, more than 64% ahead of Corporate ($91.98k) and over 170% ahead of Home Office ($60.30K).
+
+<img width="354" height="214" alt="image" src="https://github.com/user-attachments/assets/4498de51-7791-4f75-8c59-e12e235b4928" />
 
 
 
+### Product Categories
+Technology is the top-performing category in terms of sales at $836K, narrowly ahead of Furniture ($742K) and Office Supplies ($719K).
 
-### Product Sales Performance
+<img width="370" height="163" alt="image" src="https://github.com/user-attachments/assets/89f9de3f-7d93-4e79-b16f-7e4be6efbcb3" />
 
-Technology leads all product categories by revenue, followed by Furniture and Office Supplies. This distribution reflects the relatively higher unit value of technology products compared to consumable office supplies.
 
-Category performance summary
-- Technology: $836.15K — the top-performing category, driven by high average order values.
-- Furniture: $742.00K — second highest, with strong performance in the West region.
-- Office Supplies: $719.05K — highest volume category but lower average transaction value.
+### Geographic Performance
 
-While Technology generates the highest revenue, Office Supplies likely drives the highest order frequency given its consumable nature. A margin analysis by category would reveal whether Technology’s revenue lead translates to a proportional profit contribution, particularly given the business’s 15.62% average discount rate.
-Sub-category filters available on the dashboard enable more granular analysis — for example, identifying whether specific sub-categories like Phones, Chairs, or Binders are disproportionate contributors within each parent category.
+California is the single largest state market at $458K (19.9% of total), outperforming the average state by 876%. The West region leads nationally at 31.6% ($725K), while the South trails at 17.1% ($392K). The top 5 states account for 52% of all revenue, signalling high geographic concentration risk.The Consumer segment dominates revenue at $1.16M, more than 64% ahead of Corporate ($706K) and over 170% ahead of Home Office ($430K) across all regions, Consumer leads consistently.
 
-### Sales by region and segment
-The following table presents the full breakdown of sales by region and customer segment. The West region leads across all three customer segments, while the South consistently records the lowest performance.
+<img width="583" height="330" alt="image" src="https://github.com/user-attachments/assets/962209d0-7696-40a4-a852-eb3d7c6bb8e5" />
 
-Region | Consumer |	Corporate |	Home Office	| Total
--------|----------|----------|-----------|------
-West	 | $362.88K |	$225.88K	| $136.72K |	$725.48K
-East	 | $350.91K |	$208.41K |	$127.46K	| $686.78K
-Central	| $252.03K |	$158.00K |	$91.21K	| $501.24K
-South |	$195.58K |	$121.88K |	$74.26K |	$391.72K
 
-The West region’s dominance (+876.3% above the average state performance for California) is a significant finding. While this reflects strong market penetration in the West, it also creates dependency on a single geographic cluster. The South region’s underperformance ($391.72K total vs $725.48K in the West) represents the most actionable expansion opportunity in the near term.
+
+### Sales & Profit Trend
+
+Total sales grew from $484K in 2011 to $734K in 2014 — a 51% increase. Profit grew faster, rising from $50K to $94K, an 80% gain over the same period. Both metrics show consistent upward trajectory, with the steepest growth in the final year.
+
+<img width="605" height="271" alt="image" src="https://github.com/user-attachments/assets/6cd1b1fb-7435-487c-8c7a-dd75bd27455a" />
+
+
+### Shipping
+
+Standard Class is the preferred shipping mode with 2,994 orders, nearly triple First Class (787) and Same Day (264). On-time delivery leads at 2,586 orders versus 1,990 late.
+<img width="943" height="174" alt="image" src="https://github.com/user-attachments/assets/367a3d92-5407-4fce-b832-a98e06e3567d" />
+
+
+### Operational Patterns
+ November records peak quantity sold (5,741 units) and peak orders (747), aligning with seasonal retail demand.
+
+ <img width="943" height="164" alt="image" src="https://github.com/user-attachments/assets/af46bb87-74cc-49d2-b214-bde796606392" />
+
+
+ ### Key Insights
+ 
+
+
 
 
 
 ---
-##Recommendations
+## Recommendations
+
+1. Grow B2B Segments: The customer segment show room for targeted B2B outreach and bundle pricing strategies,to help drive profit for lagging segment like home office equipment.
+
+2. jkj
+3. An average discount of 15.62% compresses margins. Introduce tiered pricing or loyalty programmes to protect profit without sacrificing volume.
+
+4. California and New York account for over 33% of total revenue. Prioritise marketing spend and inventory allocation in these states to sustain momentum
+5. Optimise Standard Class: Standard Class drives 2,994 orders — highest of any ship mode. Improve fulfilment speed in this tier to maintain customer satisfaction at scale.
+
+6. Capitalise on Q4 Seasonality: November peaks in both quantity (5,741 units) and orders (747). Pre-position inventory and staffing by October to maximise seasonal demand capture.
+
 ---
 ##Dashboard
 
