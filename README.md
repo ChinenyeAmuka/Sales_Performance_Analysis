@@ -84,7 +84,7 @@ California is the single largest state market at $458K (19.9% of total), outperf
 
 ### Sales & Profit Trend
 
-Total sales grew from $484K in 2011 to $734K in 2014 — a 51% increase. Profit grew faster, rising from $50K to $94K, an 80% gain over the same period. Both metrics show consistent upward trajectory, with the steepest growth in the final year.
+Total sales grew from $484K in 2011 to $734K in 2014 — a 51% increase. Profit grew faster, rising from $50K to $94K, an 80% gain over the same period. Both metrics show consistent upward trajectory, with the steepest growth in the final year. 
 
 <img width="605" height="271" alt="image" src="https://github.com/user-attachments/assets/6cd1b1fb-7435-487c-8c7a-dd75bd27455a" />
 
@@ -93,6 +93,10 @@ Total sales grew from $484K in 2011 to $734K in 2014 — a 51% increase. Profit 
 
 Standard Class is the preferred shipping mode with 2,994 orders, nearly triple First Class (787) and Same Day (264). On-time delivery leads at 2,586 orders versus 1,990 late.
 <img width="943" height="174" alt="image" src="https://github.com/user-attachments/assets/367a3d92-5407-4fce-b832-a98e06e3567d" />
+<img width="1099" height="136" alt="image" src="https://github.com/user-attachments/assets/b317eff1-18b2-4a39-b1b5-3fd27bdb99a2" />
+<img width="1094" height="136" alt="image" src="https://github.com/user-attachments/assets/4b9d3809-f2d8-4c94-9cca-e8f969019a18" />
+
+
 
 
 ### Operational Patterns
@@ -101,10 +105,21 @@ Standard Class is the preferred shipping mode with 2,994 orders, nearly triple F
  <img width="943" height="164" alt="image" src="https://github.com/user-attachments/assets/af46bb87-74cc-49d2-b214-bde796606392" />
 
 
- ### Key Insights
+ ### Key_Insights
  
 
+1. With Consumer generating 50% of total profits, the business is exposed if this segment contracts. A deliberate strategy to grow Corporate and Home Office reduces concentration risk and opens higher-margin B2B opportunities.
+   
+2. Technology leads($836.15k) in total sales, closely followed by Furniture($742k) and Office Supplies(60.30k). The gap between categories is narrow, suggesting balanced demand rather than a single dominant product line.
+   
+3. Sales is heavily concentrated in the West region($725.46k). The South region significantly underperforms every other region with targeted investment, the South could become the next growth lever. The top 5 states alone lead by California account for more than half of all sales, this poses a high risk to the business if not taken care of immediately.
 
+4. Increase in proft and sales from 2011-2014 is due to gradual increase in order volumn and total quantity sold which the varing average discount price from 15.83% from 2011 to 15.65% in 2014 is a major contributing factor.
+
+5. With standard shipping accounting for the (2994)59% orders, it is evident that customers are cost conscious and the need to improve operational efficiency in the standard shipping mode is increased while still ensuring that other shipping modes are working effectively to help build customers confidence. The business also records high on-time at (2586)51% delivery which should be maintained as well.
+
+6. Peak demand in November is predictable and repeatable. Yet 1,990 late deliveries across the dataset suggest the operation is not consistently ready for volume spikes. Missing November means leaving the year's biggest revenue window on the table.
+ 
 
 
 
@@ -113,18 +128,31 @@ Standard Class is the preferred shipping mode with 2,994 orders, nearly triple F
 
 1. Grow B2B Segments: The customer segment show room for targeted B2B outreach and bundle pricing strategies,to help drive profit for lagging segment like home office equipment.
 
-2. jkj
-3. An average discount of 15.62% compresses margins. Introduce tiered pricing or loyalty programmes to protect profit without sacrificing volume.
+2. Ensure inventory efficency of all the product categories especilayy technology to ensure continuous sales.
 
-4. California and New York account for over 33% of total revenue. Prioritise marketing spend and inventory allocation in these states to sustain momentum
+3. Also as California and New York account for over 33% of total revenue, prioritise marketing spend and inventory allocation in these states to sustain momentum.
+   
+4.  An average discount of 15.62% compresses margins. Introduce tiered pricing or loyalty programmes to protect profit without sacrificing volume.
+  
 5. Optimise Standard Class: Standard Class drives 2,994 orders — highest of any ship mode. Improve fulfilment speed in this tier to maintain customer satisfaction at scale.
 
 6. Capitalise on Q4 Seasonality: November peaks in both quantity (5,741 units) and orders (747). Pre-position inventory and staffing by October to maximise seasonal demand capture.
 
 ---
-##Dashboard
+
+## Dashboard
+
+<img width="1112" height="457" alt="image" src="https://github.com/user-attachments/assets/26b9a1a4-7191-4614-9ad6-b435b9e42411" />
+<img width="1096" height="457" alt="image" src="https://github.com/user-attachments/assets/2feeff53-ad28-4202-b919-928a89416867" />
+<img width="1105" height="456" alt="image" src="https://github.com/user-attachments/assets/0da901b5-99ce-4bb6-815c-2df66e718ca7" />
+
+
 
 ---
-#Connect_with_me
+# Connect_with_me
+
+Linkedin: www.linkedin.com/in/
+chinenye-amuka-79a992137
+
 
 ---
