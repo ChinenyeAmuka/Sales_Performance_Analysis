@@ -4,7 +4,7 @@ Analysis of Sales Performance Across Customer Segments, Product Categories, Loca
 
 ----
 
-## Table of Contenet
+## Table of Content
 1. [Overview](#overview)
 2. [Business_Problem](#Business_Problem)
 3. [Objectives](#Objectives)
